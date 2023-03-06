@@ -1,0 +1,73 @@
+:root {
+	--primary-light: #fefefe;
+	/* --primary-dark: #1f2937; */
+}
+html,
+body {
+	background-color: #81d8d0 !important;
+}
+.container {
+	min-height: 100vh;
+	min-width: 100vw;
+	padding: 0 !important;
+}
+/* left Navigation */
+.navigationContainer {
+	min-height: 100%;
+	/* width: 10vw; */
+	background-color: var(--primary-light);
+}
+.navigation__header > div > span,
+.navigation__header > div > p {
+	font-size: 32px !important;
+	align-self: center;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.navigation__links,
+.navigation__help {
+	margin-top: 3rem;
+}
+/* Header */
+.headerContainer {
+	/* height: 15vh; */
+	background-color: #e5e7eb;
+}
+/* top half */
+.header__topContainer {
+	min-height: 30%;
+}
+.header__bottomContainer {
+	min-height: 70%;
+}
+.header__topContainer > div > span {
+	align-self: center;
+	margin-right: 1rem;
+}
+.header__searchContainer,
+.header__profileContainer,
+.header__userInfo,
+.header__buttons {
+	width: 50%;
+}
+.userInfo__image {
+	height: 4em;
+	width: 4em;
+}
+/* bottom half */
+
+/* Projects */
+.project__item{
+	background-color: #e5e7eb;
+}
+/* Footer */
+.footer {
+	width: 100%;
+	/* position: absolute; */
+	bottom: 0;
+	color: var(--primary-light);
+	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.footer__link {
+	color: var(--primary-light);
+}
